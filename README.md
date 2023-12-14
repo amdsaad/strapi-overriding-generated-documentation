@@ -1,57 +1,31 @@
-# 🚀 Getting started with Strapi
+# Strapi Documentation Plugin
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+This project is a custom plugin for Strapi that adds custom routes to the documentation plugin.
 
-### `develop`
+## Installation
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+To install this plugin, follow these steps:
 
-```
-npm run develop
-# or
-yarn develop
-```
+1. Clone the repository: `git clone https://github.com/amdcodes/strapi-doc-plugin.git`
+2. Install dependencies: `npm install`
+3. Start the Strapi server: `npm run develop`
 
-### `start`
+## Usage
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+To use this plugin, you need to configure the custom routes. Follow these steps:
 
-```
-npm run start
-# or
-yarn start
-```
+1. Open the Strapi admin panel.
+2. Go to the "Plugins" section.
+3. Find the "Documentation" plugin and click on "Configure".
+4. Add your custom routes using the provided interface.
 
-### `build`
+For more detailed instructions, please refer to the [blog post](https://amd.codes/posts/how-to-add-custom-routes-to-strapi-documentation-plugin).
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+## Contributing
 
-```
-npm run build
-# or
-yarn build
-```
+Contributions are welcome! If you have any ideas or improvements, please open an issue or submit a pull request.
 
-## ⚙️ Deployment
+## License
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+This project is licensed under the [MIT License](LICENSE).
+Tags: Strapi, Documentation, Plugin, Custom Routes
